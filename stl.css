@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(158, 89, 226);
+    text-align: center;
+    border-radius: 30%;
+    background-image: url(hg.jpg);
+    background-size: cover;
+
+}
+table{
+    padding: 50px;
+    border: 10PX;
+    
+    
+}
+table, tr, td,button{
+    margin-top: 10px;
+    border: 2px ;
+    
+    height: 80px;
+    width: 80px;
+}
+button:hover{
+    background-color:lightblue;
+    transition: 0.2s;
+    transform: scale(1.10);
+}
+#result{
+    height: 50px;
+    width: 300px;
+    
+    box-shadow: 10px 10px 5px lightblue;
+
+    
+}
+table,tr,td,button{
+    font-size: 20px;
+    text-shadow: 1px rgb(10, 40, 49);
+}
